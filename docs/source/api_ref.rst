@@ -11,7 +11,7 @@ Reference API
 .. _ref_datasets:
 
 :mod:`bids_relmat.conversion` - Conversion function
------------------------------------------------
+---------------------------------------------------
 .. automodule:: bids_relmat.conversion
    :no-members:
    :no-inherited-members:
@@ -26,7 +26,7 @@ Reference API
 .. _ref_utils:
 
 :mod:`bids_relmat.utils` - Utility functions
-------------------------------------------------
+--------------------------------------------
 .. automodule:: bids_relmat.utils
    :no-members:
    :no-inherited-members:
