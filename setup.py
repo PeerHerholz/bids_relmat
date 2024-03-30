@@ -10,7 +10,7 @@ import versioneer
 min_version = (3, 10)
 if sys.version_info < min_version:
     error = """
-package_name does not support Python {0}.{1}.
+bids_relmat does not support Python {0}.{1}.
 Python {2}.{3} and above is required. Check your Python version like so:
 
 python3 --version
@@ -34,25 +34,25 @@ with open(path.join(here, 'requirements.txt')) as requirements_file:
 
 
 setup(
-    name='package_name',
+    name='bids_relmat',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description="Short description of your python package.",
     long_description=readme,
     author="Name of Developer",
     author_email='Email Address of Developer',
-    url='https://github.com/YourGitHubHandle/package_name',
+    url='https://github.com/YourGitHubHandle/bids_relmat',
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     packages=find_packages(exclude=['docs', 'tests']),
     entry_points={
         'console_scripts': [
-            'package_name = package_name.package_name:package_name',
+            'bids_relmat = bids_relmat.bids_relmat:bids_relmat',
             # 'command = some.module:some_function',
         ],
     },
     include_package_data=True,
     package_data={
-        'package_name': [
+        'bids_relmat': [
             # When adding files here, remember to update MANIFEST.in as well,
             # or else they will not be included in the distribution on PyPI!
             # 'path/to/data_file',

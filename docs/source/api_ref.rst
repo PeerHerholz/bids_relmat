@@ -1,6 +1,6 @@
 .. _api_ref:
 
-.. currentmodule:: bidsnbs
+.. currentmodule:: bids_relmat
 
 Reference API
 =============
@@ -10,37 +10,29 @@ Reference API
 
 .. _ref_datasets:
 
-:mod:`bidsnbs.conversion` - Conversion tools
+:mod:`bids_relmat.conversion` - Conversion function
 -----------------------------------------------
-.. automodule:: bidsnbs.conversion
+.. automodule:: bids_relmat.conversion
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: bidsnbs.conversion
+.. currentmodule:: bids_relmat.conversion
 
 .. autosummary::
    :template: function.rst
    :toctree: generated/
-
-   bidsnbs.conversion.add_nbs_file_metadata_subject_events_json
-   bidsnbs.conversion.add_nbs_file_metadata_subject_events_tsv
 
 
 .. _ref_utils:
 
-:mod:`bidsnbs.utils` - Utility functions
+:mod:`bids_relmat.utils` - Utility functions
 ------------------------------------------------
-.. automodule:: bidsnbs.utils
+.. automodule:: bids_relmat.utils
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: bidsnbs.utils
+.. currentmodule:: bids_relmat.utils
 
 .. autosummary::
    :template: function.rst
    :toctree: generated/
-
-   bidsnbs.utils.check_path
-   bidsnbs.utils.check_output_path_NBS_templates
-   bidsnbs.utils.generate_json_sidecar_file
-   bidsnbs.utils.validate_input_dir

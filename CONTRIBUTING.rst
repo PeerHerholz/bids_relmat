@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/YourGitHubHandle/package_name/issues.
+Report bugs at https://github.com/peerherholz/bids_relmat/issues.
 
 If you are reporting a bug, please include:
 
@@ -35,14 +35,14 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-package_name could always use more documentation, whether
-as part of the official package_name docs, in docstrings,
+``bids_relmat`` could always use more documentation, whether
+as part of the official ``bids_relmat`` docs, in docstrings,
 or even on the web in blog posts, articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/YourGitHubHandle/package_name/issues.
+The best way to send feedback is to file an issue at https://github.com/peerherholz/bids_relmat/issues.
 
 If you are proposing a feature:
 
@@ -54,17 +54,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up ``package_name`` for local development.
+Ready to contribute? Here's how to set up ``bids_relmat`` for local development.
 
-1. Fork the ``package_name`` repo on GitHub.
+1. Fork the ``bids_relmat`` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/package_name.git
+    $ git clone git@github.com:your_name_here/bids_relmat.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv package_name
-    $ cd package_name/
+    $ mkvirtualenv bids_relmat
+    $ cd bids_relmat/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -75,7 +75,7 @@ Ready to contribute? Here's how to set up ``package_name`` for local development
 
 5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
 
-    $ flake8 package_name tests
+    $ flake8 bids_relmat tests
     $ python setup.py test
     $ tox
 
@@ -99,6 +99,6 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7, 3.3, 3.4, 3.5 and for PyPy. Check
-   https://travis-ci.org/YourGitHubHandle/package_name/pull_requests
+   https://travis-ci.org/peerherholz/bids_relmat/pull_requests
    and make sure that the tests pass for all supported Python versions.
 

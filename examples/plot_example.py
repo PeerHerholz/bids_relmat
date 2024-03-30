@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-package_name example
+bids_relmat example
 =====================================
-This example demonstrates how to use :mod:`package_name`.
+This example demonstrates how to use :mod:`bids_relmat`.
 """

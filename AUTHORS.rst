@@ -5,7 +5,7 @@ Credits
 Maintainer
 ----------
 
-* Name <Email address>
+* Peer Herholz <herholz.peer@gmail.com>
 
 Contributors
 ------------

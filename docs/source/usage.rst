@@ -4,26 +4,26 @@
 Usage
 ======
 
-The general usage of ``package_name`` is ADD DESCRIPTION HERE.
-The exact command to run ``package_name`` depends on the Installation method and user. Regarding the latter, ``package_name`` 
-can either be used as a ``command line tool`` or directly within ``python``. Please refer to the `Tutorial <https://YourGitHubHandle.github.io/package_name/walkthrough>`_ for a more detailed walkthrough.
+The general usage of ``bids_relmat`` is ADD DESCRIPTION HERE.
+The exact command to run ``bids_relmat`` depends on the Installation method and user. Regarding the latter, ``bids_relmat`` 
+can either be used as a ``command line tool`` or directly within ``python``. Please refer to the `Tutorial <https://peerherholz.github.io/bids_relmat/walkthrough>`_ for a more detailed walkthrough.
 
-Here's a very conceptual example of running ``package_name`` via ``CLI``: ::
+Here's a very conceptual example of running ``bids_relmat`` via ``CLI``: ::
 
-    package_name 
-    package_name optional_arguments
+    bids_relmat 
+    bids_relmat optional_arguments
 
 and here from within ``python``: ::
 
-    from package_name import package_name_function
-    from package_name import package_name_function
+    from bids_relmat import bids_relmat_function
+    from bids_relmat import bids_relmat_function
 
-    result = package_name_function(input)
+    result = bids_relmat_function(input)
 
-    result = package_name_function(input, optional_arguments)
+    result = bids_relmat_function(input, optional_arguments)
 
-Below, we will focus on the ``CLI`` version. Thus, if you are interested in using ``package_name`` directly within ``python``,
-please check the `Examples <https://YourGitHubHandle.github.io/package_name/auto_examples/index>`_.
+Below, we will focus on the ``CLI`` version. Thus, if you are interested in using ``bids_relmat`` directly within ``python``,
+please check the `Examples <https://peerherholz.github.io/bids_relmat/auto_examples/index>`_.
 
 Sub-section of Usage focusing on CLI
 ===========================================
@@ -31,8 +31,8 @@ Sub-section of Usage focusing on CLI
 Command-Line Arguments
 ======================
 .. argparse::
-  :ref: package_name.package_name_cli.get_parser
-  :prog: package_name
+  :ref: bids_relmat.bids_relmat_cli.get_parser
+  :prog: bids_relmat
   :nodefault:
   :nodefaultconst:
 
@@ -40,14 +40,14 @@ Example Call(s)
 ---------------
 
 Below you'll find two examples calls that hopefully help
-you to familiarize yourself with ``package_name`` and its options.
+you to familiarize yourself with ``bids_relmat`` and its options.
 
 Example 1
 ~~~~~~~~~
 
 .. code-block:: bash
 
-    package_name \
+    bids_relmat \
     input
     optional_arguments
 
@@ -62,7 +62,7 @@ Example 2
 
 .. code-block:: bash
 
-    package_name \
+    bids_relmat \
     input
     optional_arguments
     optional_arguments
@@ -77,17 +77,17 @@ Here's what's in this call:
 Support and communication
 =========================
 
-The documentation of this project is found here: https://YourGitHubHandle.github.io/package_name.
+The documentation of this project is found here: https://peerherholz.github.io/bids_relmat.
 
 All bugs, concerns and enhancement requests for this software can be submitted here:
-https://github.com/YourGitHubHandle/package_name/issues.
+https://github.com/peerherholz/bids_relmat/issues.
 
-If you have a problem or would like to ask a question about how to use ``package_name``,
-please submit a question to `NeuroStars.org <http://neurostars.org/tags/package_name>`_ with an ``package_name`` tag.
+If you have a problem or would like to ask a question about how to use ``bids_relmat``,
+please submit a question to `NeuroStars.org <http://neurostars.org/tags/bids_relmat>`_ with an ``bids_relmat`` tag.
 NeuroStars.org is a platform similar to StackOverflow but dedicated to neuroinformatics.
 
-All previous ``package_name`` questions are available here:
-http://neurostars.org/tags/package_name/
+All previous ``bids_relmat`` questions are available here:
+http://neurostars.org/tags/bids_relmat/
 
 Not running on a local machine? - Data transfer
 ===============================================
