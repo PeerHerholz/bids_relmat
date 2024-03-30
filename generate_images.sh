@@ -11,8 +11,8 @@ generate_docker() {
              --arg DEBIAN_FRONTEND=noninteractive \
              --miniconda \
                version=latest \
-               conda_install="python=PythonVersion PythonPackages" \
-               pip_install="PythonPackages" \
+               conda_install="python=3.10" \
+               pip_install="pandas seedir pybids" \
                create_env='bids_relmat' \
                activate=true \
             --copy . /home/bids_relmat \
