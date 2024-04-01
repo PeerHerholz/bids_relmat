@@ -54,7 +54,7 @@ Contents
 
    installation
    usage
-   relmat_file
+   relmat_files
    walkthrough
    auto_examples/index
    api_ref
