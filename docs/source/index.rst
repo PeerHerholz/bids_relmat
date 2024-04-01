@@ -38,7 +38,8 @@
 Introduction
 ============
 
-``bids_relmat`` aims to provide a set of tools for ADD description here. 
+``bids_relmat`` aims to provide a set of tools for the conversion of ``BIDS`` derivatives datasets containing relationship matrices
+to be compliant with the ``relationship matrix`` extension. 
 
 This documentation showcases the respective functionality and provides details concerning
 its application and modules.
@@ -53,6 +54,7 @@ Contents
 
    installation
    usage
+   relmat_file
    walkthrough
    auto_examples/index
    api_ref
