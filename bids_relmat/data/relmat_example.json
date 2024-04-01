@@ -1,0 +1,16 @@
+{
+    "NodeFiles": "Please add path to NodeFile(s)",
+    "NodeIndicesFiles": "Please add path to NodeIndicesFile(s)",
+    "RelationShipMeasure": "Please add name of RelationShipMeasure",
+    "MeasureDescription": "Please add short description of the applied measurement",
+    "RelationshipMeasureUnits": "Please add units of the applied measurement",
+    "RelationshipMeasurePoint": "Please add measurement point of the applied measurement",
+    "AdditionalMatrixDimensions": "Please add additional matrix dimensions of the relmat if existent",
+    "AdditionalMatrixDimensionsDescription": "Please add description of additional matrix dimensions of the relmat if existent",
+    "Weighted": "Please add boolean, ie False or True",
+    "NonNegative": "Please add boolean, ie False or True",
+    "Directed": "Please add boolean, ie False or True",
+    "ValidDiagonal": "Please add boolean, ie False or True",
+    "StorageFormat": "Please add storage format of the relmat",
+    "Code": "Please add URL to code utilized to compute relmat"
+}

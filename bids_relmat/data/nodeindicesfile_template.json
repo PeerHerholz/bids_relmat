@@ -1,0 +1,6 @@
+{
+   "index": "The node index in the _relmat.tsv on which metadata is provided.",
+   "node_file": "The atlas that this node refers to.",
+   "node_file_index": "The index in the atlas that this node refers to.", 
+   "Label": "Human readable label to describe the node"
+}
