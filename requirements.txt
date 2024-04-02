@@ -2,3 +2,4 @@
 argparse
 duecredit
 importlib_resources
+pybids

@@ -10,6 +10,7 @@ doctr
 ipython
 matplotlib
 importlib_resources
+pybids
 # These are dependencies of various sphinx extensions for documentation.
 numpydoc
 sphinx-copybutton
