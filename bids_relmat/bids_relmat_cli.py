@@ -117,7 +117,7 @@ def run_bids_relmat():
     elif not args.get_nbs_files and not args.new_bids_dir:
 
         # initialize BIDS dataset layout
-        layout = BIDSLayout(bids_dir_run)
+        layout = BIDSLayout(bids_dir_run, derivatives=True)
 
         # initialize empty subject list
         subjects_to_analyze = []
