@@ -27,4 +27,4 @@ bids_relmat
 
 
 
-Description of your python package.
+A small python package to add Relationship Matrix metadata to BIDS derivatives datasets.
