@@ -4,7 +4,7 @@
    :align: center
    :width: 400px
 
-.. centered:: bids_relmat: A short description of your python package.
+.. centered:: bids_relmat: A small python package to add ``Relationship Matrix metadata`` to ``BIDS derivatives`` datasets.
 
 
 .. image:: https://github.com/peerherholz/bids_relmat/actions/workflows/docs.yml/badge.svg
@@ -38,7 +38,7 @@
 Introduction
 ============
 
-``bids_relmat`` aims to provide a set of tools for the conversion of ``BIDS`` derivatives datasets containing relationship matrices
+``bids_relmat`` aims to provide a set of tools for the conversion of ``BIDS derivatives`` datasets containing relationship matrices
 to be compliant with the ``relationship matrix`` extension. 
 
 This documentation showcases the respective functionality and provides details concerning
